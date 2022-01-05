@@ -11,12 +11,16 @@ body {
 
 }
 
+.br::before {
+	content: "\A" ;
+	white-space: pre ;
+}
+
 .firstPage {
     background-image: url(../spImg/topPageSp.png);
     background-repeat: no-repeat;
     text-align: center;
     background-position: top center;
-    /* background-size: contain; */
     background-size: 100%;
 }
 
@@ -130,7 +134,7 @@ header {
 }
 
 .woman {
-    background-image: url(./spImg/custmerVoiceSp.png);
+    background-image: url(../spImg/custmerVoiceSp.png);
     background-repeat: no-repeat;
     background-size: 95%;
     background-position: center 10px;
@@ -141,7 +145,7 @@ header {
 }
 
 .caseBox {
-    background-image: url(./bg/bg3.png);
+    background-image: url(../bg/bg3.png);
     background-repeat: repeat;
     text-align: center;
     width: 90%;
@@ -158,7 +162,6 @@ header {
 .caseNumberLeft, .caseNumberRight {
     width: 35%;
     position: absolute;
-    /* padding-bottom: 200px; */
     left: 10%;
 }
 
@@ -210,7 +213,7 @@ header {
 
 .price {
     height: 200%;
-    background-image: url(./spImg/priceBg.png);
+    background-image: url(../spImg/priceBg.png);
     background-repeat: no-repeat;
     background-position: center 5px;
     background-size: 100%;
@@ -279,7 +282,7 @@ header {
 }
 
 .correspondenceArea {
-    background-image: url(./spImg/areaBgSp.png);
+    background-image: url(../spImg/areaBgSp.png);
     background-repeat: no-repeat;
     background-position: center 10px;
     width: 100%;
@@ -307,7 +310,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px;
-    /* padding-bottom: 100px; */
     color: #ffffff;
     padding-bottom: 100px;
 }
@@ -334,7 +336,6 @@ header {
 
 .contact {
     width: 100%;
-    /* position: absolute; */
 }
 
 .contactBox {
@@ -396,7 +397,7 @@ footer {
     margin-bottom: 40px;
     width: 100%;
     justify-content: center;
-    background-image: url(./bg/bg1.png);
+    background-image: url(../bg/bg1.png);
 }
 
 .footerLogo a img {
